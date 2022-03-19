@@ -3,8 +3,3 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu/nodejs-express
-hooks:
-  BeforeInstall:
-    - location: scripts/before_install.sh
-      timeout: 300
-      runas: ubuntu
