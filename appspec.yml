@@ -3,3 +3,7 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/test_nodejs_application/
+  BeforeInstall:
+    - location: scripts/before_install.sh
+      timeout: 300
+      runas: ubuntu
