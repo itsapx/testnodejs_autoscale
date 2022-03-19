@@ -2,4 +2,4 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/WordPress
+    destination: /home/ubuntu/test_nodejs_application/
