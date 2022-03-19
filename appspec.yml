@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/test_nodejs_application/
+    destination: /home/ubuntu/nodejs-express/
 hooks:
   BeforeInstall:
     - location: scripts/before_install.sh
