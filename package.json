@@ -1,0 +1,19 @@
+{
+  "name": "test_nodejs_application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsapx/test_awscodedeploy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsapx/test_awscodedeploy/issues"
+  },
+  "homepage": "https://github.com/itsapx/test_awscodedeploy#readme"
+}
