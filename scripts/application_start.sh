@@ -11,6 +11,6 @@ export NVM_DIR="$HOME/.nvm"
 #install node modules
 sudo npm install
 sudo npm install pm2 -g
-pm2 start npm --name "myApp"
+#pm2 start npm --name "myApp"
 #start our node in the background
 sudo node app.js  > app.out.log 2> app.err.log < /dev/null &
