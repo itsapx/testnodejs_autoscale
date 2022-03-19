@@ -9,8 +9,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # loads nvm bash_completion (node is in)
 
 #install node modules
-sudo npm install
-sudo npm install pm2 -g
+#sudo npm install
+#sudo npm install pm2 -g
+sudo npm install express
 #pm2 start npm --name "myApp"
 #start our node in the background
 sudo node app.js  > app.out.log 2> app.err.log < /dev/null &
