@@ -5,4 +5,4 @@ sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | 
 . ~/.nvm/nvm.sh
 nvm install node
 
-sudo npm install forever -g
+npm install forever -g
