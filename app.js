@@ -8,5 +8,5 @@ const server = app.listen(port, function(){
 
 
 app.get('/', function(req, res){
-	res.send("OK");
+	res.send("OK 1");
 });
